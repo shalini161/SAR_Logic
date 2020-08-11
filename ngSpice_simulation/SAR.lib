@@ -1,0 +1,65 @@
+*SAR Logic
+
+.subckt SAR VDD 0 RESET CLK COMP D9 D8 D7 D6 D5 D4 D3 D2 D1 D0 EOC 
+XU1 0 VDD 0 RESET 0 N001 q1 CLK DFFSR
+XU2 0 VDD N001 0 RESET N002 q2 CLK DFFSR
+XU3 0 VDD N002 0 RESET N003 q3 CLK DFFSR
+XU4 0 VDD N003 0 RESET N004 q4 CLK DFFSR
+XU5 0 VDD N004 0 RESET N005 q5 CLK DFFSR
+XU6 0 VDD N005 0 RESET N006 q6 CLK DFFSR
+XU7 0 VDD N006 0 RESET N007 q7 CLK DFFSR
+XU8 0 VDD N007 0 RESET N008 q8 CLK DFFSR
+XU9 0 VDD N008 0 RESET N009 q9 CLK DFFSR
+XU10 0 VDD N009 0 RESET N010 q10 CLK DFFSR
+XU11 0 VDD N010 0 RESET EOC q11 CLK DFFSR
+XU12 0 VDD COMP N010 RESET D0 q12 N011 DFFSR
+XU13 0 VDD COMP N009 RESET D1 q13 D0 DFFSR
+XU14 0 VDD COMP N008 RESET D2 q14 D1 DFFSR
+XU15 0 VDD COMP N007 RESET D3 q15 D2 DFFSR
+XU16 0 VDD COMP N006 RESET D4 q16 D3 DFFSR
+XU17 0 VDD COMP N005 RESET D5 q17 D4 DFFSR
+XU18 0 VDD COMP N004 RESET D6 q18 D5 DFFSR
+XU19 0 VDD COMP N003 RESET D7 q19 D6 DFFSR
+XU20 0 VDD COMP N002 RESET D8 q20 D7 DFFSR
+XU21 0 VDD COMP N001 RESET D9 q21 D8 DFFSR
+XU23 0 VDD 0 EOC RESET N011 q23 0 DFFSR
+.ends SAR
+
+.subckt DFFSR 0 1 D S_ R_ Q Q_bar CLK
+Msp S S_ 1 1 pfet w=2u l=0.2u
+Msn S S_ 0 0 nfet w=1u l=0.2u
+Mrp R R_ 1 1 pfet w=2u l=0.2u
+Mrn R R_ 0 0 nfet w=1u l=0.2u
+M0 a R 1 1 pfet w=2u l=0.2u
+M1 1 b a 1 pfet w=2u l=0.2u
+M2 b c 1 1 pfet w=2u l=0.2u
+M3 1 S b 1 pfet w=2u l=0.2u
+M4 c dd a 1 pfet w=1u l=0.2u
+M5 e f c 1 pfet w=1u l=0.2u
+M6 1 D e 1 pfet w=2u l=0.2u
+M7 1 dd f 1 pfet w=2u l=0.2u
+M8 dd CLK 1 1 pfet w=2u l=0.2u
+M9 g dd b 1 pfet w=1u l=0.2u
+M10 h f g 1 pfet w=1u l=0.2u
+M11 Q_bar g 1 1 pfet w=2u l=0.2u
+M12 1 R Q_bar 1 pfet w=2u l=0.2u
+M13 h Q_bar 1 1 pfet w=2u l=0.2u
+M14 1 S h 1 pfet w=2u l=0.2u
+M15 1 Q_bar Q 1 pfet w=2u l=0.2u
+M16 j R a 0 nfet w=2u l=0.2u
+M17 0 b j 0 nfet w=2u l=0.2u
+M18 k c 0 0 nfet w=2u l=0.2u
+M19 b S k 0 nfet w=2u l=0.2u
+M20 c f a 0 nfet w=1u l=0.2u
+M21 e dd c 0 nfet w=1u l=0.2u
+M22 0 D e 0 nfet w=1u l=0.2u
+M23 0 dd f 0 nfet w=1u l=0.2u
+M24 dd CLK 0 0 nfet w=1u l=0.2u
+M25 g f b 0 nfet w=1u l=0.2u
+M26 h dd g 0 nfet w=1u l=0.2u
+M27 l g Q_bar 0 nfet w=2u l=0.2u
+M28 0 R l 0 nfet w=2u l=0.2u
+M29 m Q_bar 0 0 nfet w=2u l=0.2u
+M30 h S m 0 nfet w=2u l=0.2u
+M31 0 Q_bar Q 0 nfet w=1u l=0.2u
+.ends DFFSR

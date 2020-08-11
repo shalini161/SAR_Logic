@@ -1,0 +1,30 @@
+*SAR Logic
+
+V1 COMP 0 PULSE(0 3 1ns 1ns 1ns 1us 2us)
+V2 RESET 0 PULSE(0 1.8 1ns 1ns 1ns .05us 6us)
+V3 CLK 0 PULSE(0 1.8 1ns 1ns 1ns .25us .5us)
+V5 VDD 0 1.8
+X1 VDD 0 RESET CLK COMP D9 D8 D7 D6 D5 D4 D3 D2 D1 D0 EOC SAR
+
+.include SAR.lib
+.include osu018.lib
+.tran 1ns 12us
+
+.control
+run
+plot V(CLK)
+plot V(COMP)
+plot V(RESET)
+plot V(D9)
+plot V(D8)
+plot V(D7)
+plot V(D6)
+plot V(D5)
+plot V(D4)
+plot V(D3)
+plot V(D2)
+plot V(D1)
+plot V(EOC)
+plot
+.endc
+.end
