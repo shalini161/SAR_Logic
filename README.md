@@ -168,12 +168,17 @@ $  ngspice sar.cir
 </p>
 
 
+
+
 ## Future Work
 
 
-The SAR logic circuit is too huge, hence consuming more simulation time . To reduce it we can opt for a Non-redundant SAR architecture.
+The SAR logic circuit requires a large number of transistors hence, lead to more power consumption. So to increase the performance of SAR logic 
+Non-Redundant Successive Approximation Register architecture proposed
+by Rossi, can be used as it lessen the number of D Flip Flops
 
-
+ 
+ 
 
 ## Contributors 
 
