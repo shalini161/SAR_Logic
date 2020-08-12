@@ -163,7 +163,8 @@ $  ngspice sar.cir
 
 ## Future Work
 
-1. 
+
+The SAR logic circuit is too huge, hence consuming more simulation time . To reduce it we can opt for a Non-redundant SAR architecture.
 
 
 
