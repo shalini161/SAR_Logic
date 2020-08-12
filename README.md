@@ -28,27 +28,26 @@ To view the implementation and specification: tap this link [this](/Basic/workin
 
 ### Ngspice
 
-It is use for open source spice simulator of electric and electronic circuits. Ngspice is an open project, there is no closed group of developers.
+It is a open source spice simulator of electric and electronic circuits. 
 
-### Installing Ngspice in Ubuntu 20.04
+### Installing Ngspice in Ubuntu 18.04
 
- Open the terminal and type the following to install Ngspice
+ Open the terminal and type the following commands to install Ngspice
 ```
 $  sudo apt-get install ngspice
 ```
 ### Running the Simulation
 
 
-To enter the Ngspice Shell, open the terminal & type:
+To enter the Ngspice Shell, open the terminal & and move to the directory containing the netlist you want to simulate.
+Type the following commands:
 ```
 $ ngspice
-```
-To simulate a netlist, type:
-```
+
 ngspice 1 ->  source <filename>.cir
 ```
 
-You can exit from the Ngspice Shell by typing:
+To exit from the Ngspice Shell type:
 ```
 ngspice 1 ->  exit
 ```
