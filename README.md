@@ -23,7 +23,6 @@ To view the implementation and specification: tap this link [this](/Basic/workin
 
 # Tool to view and simulate SAR logic IP
  
-  <img align="left" width="45" height="45" src=/Prelayout/Logo/logo.jpg>
 
 ## 1. Ngspice
 
@@ -35,7 +34,32 @@ It is use for open source spice simulator of electric and electronic circuits. N
 ```
 $  sudo apt-get install ngspice
 ```
+## Running the Simulation
 
+
+To enter the Ngspice Shell, open the terminal & type:
+```
+$ ngspice
+```
+To simulate a netlist, type:
+```
+ngspice 1 ->  source <filename>.cir
+```
+
+You can exit from the Ngspice Shell by typing:
+```
+ngspice 1 ->  exit
+```
+
+### Pre-Layout Simulation
+
+To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
+
+```
+$  sudo apt install -y git
+$  git clone https://github.com/sherylcorina/avsdbgp_3v3
+$  cd avsdbgp_3v3/Simulation/Ngspice_Simulation/Final_Simulation/PreLayout
+```
 
 
 
