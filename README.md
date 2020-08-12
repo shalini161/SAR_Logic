@@ -42,6 +42,8 @@ Explanation on SAR control logic working principle:  It uses the binary searchin
 </p>
 
 
+*Note - SAR Control Logic is completely a digital circuit so the applied digital voltage is 1.8V according to spec. sheet for 180nm tech node. All the data output bits voltages are 1.8V each.
+
 ## Circuit Diagram of 4 bits SAR logic
 
 
@@ -49,6 +51,7 @@ Explanation on SAR control logic working principle:  It uses the binary searchin
   <img width="800" height="500" src="/image/prelayout_image/ckt_diag.jpeg">
 </p>
 
+*Note -   The 10-bit SAR Logic won't be visible clearly in the allotted image size, so used 4-bit SAR Logic for visibility purpose.
 
 
 ## Tool to view and simulate SAR logic IP
