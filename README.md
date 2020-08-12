@@ -78,7 +78,7 @@ ngspice 1 ->  exit
 
 ### Pre-Layout Simulation
 
-To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
+To clone the Repository and simulate the Netlist, enter the following commands in your terminal.
 
 ```
 $  sudo apt install -y git
