@@ -2,6 +2,24 @@
 
 This project is on SAR Logic IP designing using an open-source tool. The design includes Flow/FreePDKs provided by VLSI Computer Architecture Research Group (VLSIARCH) at Oklahoma State University (OSU). 
 
+Table of contents
+=================
+<!--ts-->
+   
+   * [Table of contents](#table-of-contents)
+   * [ A Glance SAR Logic Circuitry](#A-Glance-SAR-Logic-Circuitry)
+   * [Power Tool Strategy](#power-tool-strategy)
+   * [Block Diagram of the SAR Logic](#Block Diagram of the SAR Logic)
+   * [TCL Power Tool with examples](#tcl-power-tool-with-examples)
+   * [TCL Power Tool Outputs Interpretation](#tcl-power-tool-outputs-interpretation)
+   * [Future Work](#future-work)
+   * [TCL Power Tool Usage](#tcl-power-tool-usage)
+      * [Dependencies](#dependencies)
+      * [Steps to run TCL Power Tool](#steps-to-run-tcl-power-tool)
+   * [Circuits Power Values](#circuits-power-values)
+   * [Contact Information](#contact-information)
+<!--te-->
+
 ## A Glance SAR Logic Circuitry
 To obtain the basic information on analog to digital converter: tap the link [this](/basic/intro.pdf).
 To learn more about SAR Logic models and its working principle: tap this link [this](/Basic/SARtypes).
