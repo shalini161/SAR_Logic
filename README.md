@@ -53,7 +53,9 @@ To clone the Repository and download the Netlist files for Simulation, enter the
 ```
 $  sudo apt install -y git
 $  git clone https://github.com/shalini161/SAR_Logic
-$  cd SAR_Logic/Ngspice_Simulation/Final_Simulation/PreLayout
+$  cd SAR_Logic/ngSpice_simulation/
+$  ngspice sar.cir
+
 ```
 
 
