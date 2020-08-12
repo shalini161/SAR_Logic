@@ -66,7 +66,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/Vin_Clk.png">
+  <img width="500" height="400" src="SAR_Logic/image/prelayout_image/Vin_Clk.png">
 </p>
 
 
@@ -98,7 +98,7 @@ $  ngspice sar.cir
 ###  Data output bit D3 and D2
 
  <p align="center">
-  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/D3_2.png">
+  <img width="500" height="400" src="SAR_Logic/image/prelayout_image/D3_2.png">
 </p>
 
 ###  Data output bit D1 and D0
