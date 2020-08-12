@@ -186,7 +186,7 @@ The SAR logic circuit is too huge, hence consuming more simulation time . To red
 
 ## Contact Information
 
-- - Shalini Priya, M.Tech Embedded System, NIT Jamshedpur priyashalini161@gmail.com
+- Shalini Priya, M.Tech Embedded System, NIT Jamshedpur priyashalini161@gmail.com
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 - Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
 
