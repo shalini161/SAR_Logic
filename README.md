@@ -10,7 +10,7 @@ To view the implementation and specification: tap this link [this](/Basic/workin
 ## Block Diagram of the SAR Logic
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/block_dig.png">
+  <img width="800" height="500" src="/image/prelayout_image/block_diag.png">
 </p>
 
 
@@ -18,7 +18,7 @@ To view the implementation and specification: tap this link [this](/Basic/workin
 
 
  <p align="center">
-  <img width="800" height="500" src="">
+  <img width="800" height="500" src="/image/prelayout_image/ckt_diag">
 </p>
 
 
@@ -74,7 +74,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/Vin_Clk.png">
+  <img width="800" height="500" src="/image/prelayout_image/clk_comp.png">
 </p>
 
 
@@ -84,7 +84,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/soc_eoc.png">
+  <img width="800" height="500" src="/image/prelayout_image/reset_eoc.png">
 </p>
 
 
