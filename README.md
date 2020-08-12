@@ -27,7 +27,7 @@ To view the implementation and specification: tap this link [this](/Basic/workin
 
 ## 1. Ngspice
 
-[Ngspice] is use for open source spice simulator of electric and electronic circuits. Ngspice is an open project, there is no closed group of developers.
+It is use for open source spice simulator of electric and electronic circuits. Ngspice is an open project, there is no closed group of developers.
 
 #### Installing Ngspice in Ubuntu 20.04
 
@@ -48,14 +48,14 @@ $  sudo apt-get install ngspice
 
 
  <p align="center">
-  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/Vin_Clk">
+  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/Vin_Clk.png">
 </p>
 
 
 ###  start of conversion and end of coversion bit
 
  <p align="center">
-  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/SOC_EOC.png">
+  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/soc_eoc.png">
 </p>
 
 ###  Data output bit D9 and D8
