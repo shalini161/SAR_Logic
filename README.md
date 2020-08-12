@@ -3,7 +3,8 @@
 This project is on SAR Logic IP designing using an open-source tool. The design includes Flow/FreePDKs provided by VLSI Computer Architecture Research Group (VLSIARCH) at Oklahoma State University (OSU). 
 
 ## A Glance SAR Logic Circuitry
-To learn more about SAR Logic models and its working principle: tap this link [this](/Basic/Types).
+To obtain the basic information on analog to digital converter: tap the link [this](/Basic/intro).
+To learn more about SAR Logic models and its working principle: tap this link [this](/Basic/SARtypes).
 To view the implementation and specification: tap this link [this](/Basic/working).
 
 ## Block Diagram of the SAR Logic
