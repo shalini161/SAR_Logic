@@ -8,11 +8,17 @@ To view the implementation and specification: tap this link [this](/Basic/workin
 
 ## Block Diagram of the SAR Logic
 
+ <p align="center">
+  <img width="800" height="500" src="/image/prelayout_image/block_dig.png">
+</p>
 
 
 ## Circuit Diagram of 4 bits SAR logic
 
 
+ <p align="center">
+  <img width="800" height="500" src="">
+</p>
 
 
 
