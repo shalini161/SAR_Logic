@@ -18,7 +18,7 @@ To view the implementation and specification: tap this link [this](/Basic/workin
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/ckt_diag">
+  <img width="800" height="500" src="/image/prelayout_image/ckt_diag.jpeg">
 </p>
 
 
