@@ -6,16 +6,26 @@ Table of contents
 =================
 <!--ts-->
    
-   * [Table of contents](#table-of-contents)
+
    * [ A Glance SAR Logic Circuitry](#A-Glance-SAR-Logic-Circuitry)
-   * [Power Tool Strategy](#power-tool-strategy)
-   * [Block Diagram of the SAR Logic](#Block Diagram of the SAR Logic)
-   * [TCL Power Tool with examples](#tcl-power-tool-with-examples)
-   * [TCL Power Tool Outputs Interpretation](#tcl-power-tool-outputs-interpretation)
+   * [Block Diagram of the SAR Logic](#Block-Diagram-of-the-SAR-Logic)
+   * [Circuit Diagram of 4 bits SAR logic](#Circuit-Diagram-of-4-bits-SAR-logic)
+   * [Tool to view and simulate SAR logic IP](#Tool-to-view-and-simulate-SAR-logic-IP)
+        * [ngSpice](#ngSpice) 
+        * [Installing Ngspice in Ubuntu 18.04](#Installing-Ngspice-in-Ubuntu-18.04)
+        * [Running the Simulation](#Running-the-Simulation)
+        * [Pre-Layout Simulation](#Pre-Layout-Simulation)
+   * [Pre-Layout Performance Characteristics](#Pre-Layout-Performance-Characteristics)
+        * [input voltage and Comparator output waveforms](#input voltage and Comparator output waveforms) 
+        * [start of conversion and end of coversion bit  waveforms](#start of conversion and end of coversion bit  waveforms) 
+        * [Data output bit D9 and D8  waveforms](#Data-output-bit-D9-and-D8-waveforms)
+        * [Data output bit D7 and D6  waveforms](#Data-output-bit-D7-and-D6-waveforms)
+        * [Data output bit D5 and D4  waveforms](#Data-output-bit-D5-and-D4-waveforms) 
+        * [Data output bit D3 and D2  waveforms](#Data-output-bit-D3-and-D2-waveforms)
+        * [Data output bit D1 and D0  waveforms](#Data-output-bit-D1-and-D0-waveforms)     
    * [Future Work](#future-work)
    * [TCL Power Tool Usage](#tcl-power-tool-usage)
-      * [Dependencies](#dependencies)
-      * [Steps to run TCL Power Tool](#steps-to-run-tcl-power-tool)
+   * [Ngspice](#Ngspice) 
    * [Circuits Power Values](#circuits-power-values)
    * [Contact Information](#contact-information)
 <!--te-->
@@ -86,7 +96,7 @@ $  ngspice sar.cir
 
 ## Pre-Layout Performance Characteristics
 
-###  input voltage and Comparator output
+###  input voltage and Comparator output waveforms
 
 
 
@@ -96,7 +106,7 @@ $  ngspice sar.cir
 
 
 
-###  start of conversion and end of coversion bit
+###  start of conversion and end of coversion bit  waveforms
 
 
 
@@ -106,7 +116,7 @@ $  ngspice sar.cir
 
 
 
-###  Data output bit D9 and D8
+###  Data output bit D9 and D8  waveforms
 
 
 
@@ -116,7 +126,7 @@ $  ngspice sar.cir
 
 
 
-###  Data output bit D7 and D6
+###  Data output bit D7 and D6  waveforms
 
 
 
@@ -126,7 +136,7 @@ $  ngspice sar.cir
 
 
 
-###  Data output bit D5 and D4
+###  Data output bit D5 and D4  waveforms
 
 
 
@@ -136,7 +146,7 @@ $  ngspice sar.cir
 
 
 
-###  Data output bit D3 and D2
+###  Data output bit D3 and D2  waveforms
 
 
 
@@ -146,7 +156,7 @@ $  ngspice sar.cir
 
 
 
-###  Data output bit D1 and D0
+###  Data output bit D1 and D0  waveforms
 
 
 
