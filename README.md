@@ -1,5 +1,5 @@
 # SAR_Logic
-# SAR_Logic
+
 This project is on SAR Logic IP designing using an open-source tool. The design includes Flow/FreePDKs provided by VLSI Computer Architecture Research Group (VLSIARCH) at Oklahoma State University (OSU). 
 
 ## A Glance SAR Logic Circuitry
@@ -13,7 +13,7 @@ To view the implementation and specification: tap this link [this](/Basic/workin
 </p>
 
 
-## Circuit Diagram of SAR logic
+## Circuit Diagram of 4 bits SAR logic
 
  <p align="center">
   <img width="800" height="500" src="/Images/N/circuit.png">
