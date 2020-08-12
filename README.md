@@ -8,33 +8,28 @@ To view the implementation and specification: tap this link [this](/Basic/workin
 
 ## Block Diagram of the SAR Logic
 
- <p align="center">
-  <img width="800" height="500" src="/Images/">
-</p>
 
 
 ## Circuit Diagram of 4 bits SAR logic
 
- <p align="center">
-  <img width="800" height="500" src="/Images/N/circuit.png">
-</p>
 
 
 
-# Tool to view and simulate SAR logic IP
+
+## Tool to view and simulate SAR logic IP
  
 
-## 1. Ngspice
+### Ngspice
 
 It is use for open source spice simulator of electric and electronic circuits. Ngspice is an open project, there is no closed group of developers.
 
-#### Installing Ngspice in Ubuntu 20.04
+### Installing Ngspice in Ubuntu 20.04
 
  Open the terminal and type the following to install Ngspice
 ```
 $  sudo apt-get install ngspice
 ```
-## Running the Simulation
+### Running the Simulation
 
 
 To enter the Ngspice Shell, open the terminal & type:
@@ -57,12 +52,9 @@ To clone the Repository and download the Netlist files for Simulation, enter the
 
 ```
 $  sudo apt install -y git
-$  git clone https://github.com/sherylcorina/avsdbgp_3v3
-$  cd avsdbgp_3v3/Simulation/Ngspice_Simulation/Final_Simulation/PreLayout
+$  git clone https://github.com/shalini161/SAR_Logic
+$  cd SAR_Logic/Ngspice_Simulation/Final_Simulation/PreLayout
 ```
-
-
-
 
 
 
@@ -112,3 +104,33 @@ $  cd avsdbgp_3v3/Simulation/Ngspice_Simulation/Final_Simulation/PreLayout
  <p align="center">
   <img width="800" height="500" src="SAR_Logic/image/prelayout_image/D1_0.png">
 </p>
+
+
+## Future Work
+
+1. 
+
+
+
+## Contributors 
+
+- **Shalini Priya** 
+- **Kunal Ghosh** 
+- **Philipp Gühring** 
+
+
+
+## Acknowledgments
+
+
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Philipp Gühring, Software Architect, LibreSilicon Assocation
+
+
+
+## Contact Information
+
+- - Shalini Priya, M.Tech Embedded System, NIT Jamshedpur priyashalini161@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+- Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
+
