@@ -24,7 +24,7 @@ plot V(D4)
 plot V(D3)
 plot V(D2)
 plot V(D1)
+plot V(D0)
 plot V(EOC)
-plot
 .endc
 .end
