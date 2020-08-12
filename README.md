@@ -44,47 +44,47 @@ $  sudo apt-get install ngspice
 
 ## Pre-Layout Performance Characteristics
 
-###  Clock and Comparator output
+###  input voltage and Comparator output
 
 
  <p align="center">
-  <img width="800" height="500" src="/Images/">
+  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/Vin_Clk">
 </p>
 
 
 ###  start of conversion and end of coversion bit
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_supply.png">
+  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/SOC_EOC.png">
 </p>
 
 ###  Data output bit D9 and D8
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_tc.png">
+  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/D9_8.png">
 </p>
 
 ###  Data output bit D7 and D6
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_vc.png">
+  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/D7_6.png">
 </p>
 
 ###  Data output bit D5 and D4
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_vc.png">
+  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/D5_4.png">
 </p>
 
 
 ###  Data output bit D3 and D2
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_vc.png">
+  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/D3_2.png">
 </p>
 
 ###  Data output bit D1 and D0
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_vc.png">
+  <img width="800" height="500" src="SAR_Logic/image/prelayout_image/D1_0.png">
 </p>
