@@ -103,7 +103,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/clk_comp.png">
+  <img width="800" height="500" src="/image/prelayout_image/img1.png">
 </p>
 
 
@@ -113,7 +113,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/reset_eoc.png">
+  <img width="800" height="500" src="/image/prelayout_image/img2.png">
 </p>
 
 
@@ -123,7 +123,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/D9_8.png">
+  <img width="800" height="500" src="/image/prelayout_image/img3.png">
 </p>
 
 
@@ -133,7 +133,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/D7_6.png">
+  <img width="800" height="500" src="/image/prelayout_image/img4.png">
 </p>
 
 
@@ -143,7 +143,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/D5_4.png">
+  <img width="800" height="500" src="/image/prelayout_image/img5.png">
 </p>
 
 
@@ -153,7 +153,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/D3_2.png">
+  <img width="800" height="500" src="/image/prelayout_image/img6.png">
 </p>
 
 
@@ -163,7 +163,7 @@ $  ngspice sar.cir
 
 
  <p align="center">
-  <img width="800" height="500" src="/image/prelayout_image/D1_0.png">
+  <img width="800" height="500" src="/image/prelayout_image/img7.png">
 </p>
 
 
