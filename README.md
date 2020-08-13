@@ -30,7 +30,7 @@ Table of contents
 To obtain the basic information on analog to digital converter: tap the link [this](/basic/intro.pdf).
 
 
-To learn more about SAR Logic models and its working principle: tap this link [this](/Basic/SARtypes).
+To know about ADC specification: tap this link [this](/Basic/specifications).
 
 
 Explanation on SAR control logic working principle:  It uses the binary searching algorithm. The whole circuit is divided into two parts namely the upper half works as shift registers and the lower half as code registres. The RESET also called as SOC i.e start of conversion is applied for the first clock cycle. It helps to reset all the D flip-flop before the starting of conversion. In the second clock cycle the lower leftmost MSB flip-flop i.e D9 is set which gives the binary code 1000000000. In the next clock cycle, D8 sets and it acts as a clock pulse for D9 which allows the D9 flip-flop to store input from the comparator. So if the comparator input is high we get the output as 1100000000 or else it's 0100000000 as your output. So the same sequence continues for the rest flip-flops. At the 11th clock cycle, EOC i.e end of conversion signal is generated, showing the end of conversion for a single hold sample.
