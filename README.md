@@ -16,8 +16,8 @@ Table of contents
         * [Running the Simulation](#Running-the-Simulation)
         * [Pre-Layout Simulation](#Pre-Layout-Simulation)
    * [Pre-Layout Performance Characteristics](#Pre-Layout-Performance-Characteristics)
-        * [input voltage and Comparator output waveforms](#input-voltage-and-Comparator-output-waveforms) 
-        * [start of conversion and end of coversion bit  waveforms](#start-of-conversion-and-end-of-coversion-bit-waveforms) 
+        * [Input Clock Pulse and Comparator Output waveforms](#Input-Clock-and-Comparator-Output-waveforms) 
+        * [Start Of Conversion and End Of Coversion bit  waveforms](#Start-Of-Conversion-and-End-Of-Coversion-bit-waveforms) 
         * [Data output bit D9 and D8  waveforms](#Data-output-bit-D9-and-D8-waveforms)
         * [Data output bit D7 and D6  waveforms](#Data-output-bit-D7-and-D6-waveforms)
         * [Data output bit D5 and D4  waveforms](#Data-output-bit-D5-and-D4-waveforms) 
@@ -98,7 +98,7 @@ $  ngspice sar.cir
 
 ## Pre-Layout Performance Characteristics
 
-###  input voltage and Comparator output waveforms
+###  Input Clock Pulse and Comparator Output waveforms
 
 
 
@@ -108,7 +108,7 @@ $  ngspice sar.cir
 
 
 
-###  start of conversion and end of coversion bit  waveforms
+###  Start Of Conversion and End Of Coversion bit  waveforms
 
 
 
