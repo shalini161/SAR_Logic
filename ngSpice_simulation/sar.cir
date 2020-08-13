@@ -8,7 +8,7 @@ X1 VDD 0 RESET CLK COMP D9 D8 D7 D6 D5 D4 D3 D2 D1 D0 EOC SAR
 
 .include SAR.lib
 .include osu018.lib
-.tran 1ns 50us
+.tran 1ns 15us
 
 .control
 run
