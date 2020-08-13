@@ -92,7 +92,6 @@ $  sudo apt install -y git
 $  git clone https://github.com/shalini161/SAR_Logic
 $  cd SAR_Logic/ngSpice_simulation/
 $  ngspice sar.cir
-
 ```
 
 
