@@ -22,7 +22,8 @@ Table of contents
         * [Data output bit D7 and D6  waveforms](#Data-output-bit-D7-and-D6-waveforms)
         * [Data output bit D5 and D4  waveforms](#Data-output-bit-D5-and-D4-waveforms) 
         * [Data output bit D3 and D2  waveforms](#Data-output-bit-D3-and-D2-waveforms)
-        * [Data output bit D1 and D0  waveforms](#Data-output-bit-D1-and-D0-waveforms)     
+        * [Data output bit D1 and D0  waveforms](#Data-output-bit-D1-and-D0-waveforms)
+        * [EOC and all Data Output (D9 to D0) waveforms for analysis](#EOC-and-all-Data-Output-(D9-to-D0)-waveforms-for-analysis)
    * [Future Work](#future-work) 
 <!--te-->
 
@@ -54,10 +55,13 @@ Explanation on SAR control logic working principle:  It uses the binary searchin
 *Note -   The 10-bit SAR Logic won't be visible clearly in the allotted image size, so used 4-bit SAR Logic for visibility purpose.
 
 
-## Tool to view and simulate SAR logic IP
+ ## Tools needed to view and simulate SAR_Logic IP
  
+  <img align="left" width="45" height="45" src="/image/prelayout_image/logo.jpg">
 
-### Ngspice
+### 1. Ngspice
+
+[Ngspice](http://ngspice.sourceforge.net/devel.html) is a open source spice simulator tool for electric and electronic circuits.
 
 It is a open source spice simulator of electric and electronic circuits. 
 
@@ -166,6 +170,11 @@ $  ngspice sar.cir
   <img width="800" height="500" src="/image/prelayout_image/img7.png">
 </p>
 
+### EOC and all Data Output (D9 to D0) waveforms for analysis
+
+  <p align="center">
+  <img width="800" height="500" src="/image/prelayout_image/D9_D0.png">
+</p>
 
 
 
