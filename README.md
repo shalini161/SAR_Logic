@@ -57,7 +57,7 @@ Explanation on SAR control logic working principle:  It uses the binary searchin
 
  ## Tools needed to view and simulate SAR_Logic IP
  
-  <img align="left" width="45" height="45" src="/image/prelayout_image/logo.jpg">
+  <img align="left" width="45" height="45" src="/image/prelayout_image/logo.png">
 
 ### 1. Ngspice
 
